@@ -9,4 +9,7 @@ function findMax(numbers: number[]): number {
   
     return max;
   }
+  const numbers = [5, 3, 8, 1, 9, 4];
+  const maxNumber = findMax(numbers); // returns 9
+  console.log(maxNumber);
   

@@ -7,3 +7,6 @@ function findMax(numbers) {
     }
     return max;
 }
+var numbers = [5, 3, 8, 1, 9, 4];
+var maxNumber = findMax(numbers); // returns 9
+console.log(maxNumber);
